@@ -1,0 +1,14 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+  padding: 40px 0;
+  color: getColour(heading);
+}

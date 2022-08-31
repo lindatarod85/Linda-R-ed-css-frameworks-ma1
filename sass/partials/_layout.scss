@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: getColour(background-body);
+  display: flex;
+  flex-direction: column;
+}
+
+.col-sm {
+  border-radius: 15px;
+  background-color: getColour(background-boxes);
+  height: 200px;
+  margin: 20px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.pink-border {
+  border: 3px solid getColour(pink);
+  background-color: getColour(white);
+}
+
+.pink-fill {
+  background-color: getColour(pink) !important;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}

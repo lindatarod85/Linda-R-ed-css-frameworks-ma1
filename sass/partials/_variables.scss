@@ -1,0 +1,13 @@
+$colours: (
+  pink: #c32c72,
+  logo: #262626,
+  heading: #463f3a,
+  light-grey-text: #8d8d8d,
+  background-body: #e5e5e5,
+  background-boxes: #f4f3ee,
+  white: #ffffff,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

@@ -1,0 +1,15 @@
+.navbar-brand {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  color: getColour(logo);
+}
+
+.nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: getColour(pink) !important;
+}
