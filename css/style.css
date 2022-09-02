@@ -40,11 +40,10 @@ body {
   flex-direction: column;
 }
 
-.col-sm {
+.box {
+  height: 220px;
   border-radius: 15px;
   background-color: #f4f3ee;
-  height: 200px;
-  margin: 20px;
 }
 
 .row {
@@ -52,7 +51,7 @@ body {
 }
 
 .pink-border {
-  border: 3px solid #c32c72;
+  border: 2px solid #c32c72;
   background-color: #ffffff;
 }
 

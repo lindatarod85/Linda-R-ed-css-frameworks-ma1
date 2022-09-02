@@ -9,11 +9,10 @@ body {
   flex-direction: column;
 }
 
-.col-sm {
+.box {
+  height: 220px;
   border-radius: 15px;
   background-color: getColour(background-boxes);
-  height: 200px;
-  margin: 20px;
 }
 
 .row {
@@ -21,7 +20,7 @@ body {
 }
 
 .pink-border {
-  border: 3px solid getColour(pink);
+  border: 2px solid getColour(pink);
   background-color: getColour(white);
 }
 
