@@ -46,10 +46,6 @@ body {
   background-color: #f4f3ee;
 }
 
-.row {
-  justify-content: center;
-}
-
 .pink-border {
   border: 2px solid #c32c72;
   background-color: #ffffff;
